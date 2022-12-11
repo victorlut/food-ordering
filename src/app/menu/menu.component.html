@@ -1,0 +1,24 @@
+<div class="px-5">
+    <h1 class="text-center my-5"><span class="text-warning">FOOD</span><span class="text-success"> MENU</span></h1>
+    <div class="d-flex flex-wrap justify-content-center">
+        <div *ngFor="let item of items; let i = index;" style="width: 300px; margin: 10px;">
+            <div class="rounded-lg p-3 border border-muted text-center" style="position: relative;">
+                <div>
+                    <img src={{item.image}} alt="" class="rounded-lg" width="100%">
+                </div>
+                <div class="mt-2"><h3><b>{{item.name}}</b></h3></div>
+                <button type="button" class="btn btn-outline-primary" data-toggle="collapse" [attr.data-target]="'#demo_' + item.id">Description</button>
+                <div [attr.id]="'demo_' + item.id" class="collapse text-muted">
+                    <hr>{{item.description}}</div>
+                <hr>
+                <div class="text-info"><h2><b>${{item.price}}</b></h2></div>
+                <div class="add-cart">
+                    <button class="btn btn-dark" (click)="addCart(item)">
+                        <span class="fa fa-plus"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

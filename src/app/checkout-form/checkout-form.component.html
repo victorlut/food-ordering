@@ -1,0 +1,55 @@
+<div class="container">
+    <div class="row pt-5">
+        <div class="col-md-8">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <td><b>Image</b></td>
+                        <td><b>Name</b></td>
+                        <td><b>Price</b></td>
+                        <td><b>Quantity</b></td>
+                        <td><b>Total</b></td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of items; let i = index;">
+                        <td><img [src]="item.image" alt="" width="50px"></td>
+                        <td style="line-height: 40px;"><b>{{item.name}}</b></td>
+                        <td style="line-height: 40px;"><b>${{item.price.toFixed(2)}}</b></td>
+                        <td style="line-height: 40px;">
+                            <button class="btn btn-sm btn-outline-secondary" (click)="decrease(item)"><span class="fa fa-minus"></span></button>
+                            <span class="mx-1">{{item.quantity}}</span>
+                            <button class="btn btn-sm btn-outline-secondary" (click)="increase(item)"><span class="fa fa-plus"></span></button>
+                        </td>
+                        <td style="line-height: 40px;"><b>${{ (item.price * item.quantity).toFixed(2) }}</b></td>
+                        <td style="line-height: 40px;"><button class="btn btn-danger btn-sm" (click)="removeFood(item)"><span class="fa fa-remove"></span></button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-4">
+            <h1 class="text-center">Bill</h1>
+            <div class="border rounded-lg border-muted p-3">
+                <div><b>Total</b></div>
+                <div>${{total}}</div>
+                <div class="form-group">
+                    <label for="name"><b>Name</b> <span class="text-danger"> *</span></label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <p><b>Payment Type</b> <span class="text-danger"> *</span></p>
+                <div class="form-group">
+                    <div class="custom-control custom-radio d-inline">
+                        <input type="radio" class="custom-control-input" id="method_1" name="payment" checked>
+                        <label class="custom-control-label" for="method_1">Cash</label>
+                    </div>
+                    <div class="custom-control custom-radio d-inline ml-3">
+                        <input type="radio" class="custom-control-input" id="method_2" name="payment">
+                        <label class="custom-control-label" for="method_2">Ticket</label>
+                    </div>
+                </div>
+                <button class="btn btn-block btn-primary" (click)="checkout()">Proceed To Checkout</button>
+            </div>
+        </div>
+    </div>
+</div>

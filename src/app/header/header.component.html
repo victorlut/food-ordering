@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-md bg-secondary navbar-dark">
+        <a class="navbar-brand" routerLink="/">Restaurant</a>
+  
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/cart"><span class="fa fa-shopping-cart" style="font-size: 24px;"></span><sup><span class="badge badge-danger ml-1" style="font-size: 12px;">{{cartQuantity}}</span></sup></a>
+                </li>
+            </ul>
+        </div>
+    <!-- Brand -->
+  </nav>

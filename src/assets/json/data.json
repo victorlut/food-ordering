@@ -1,0 +1,102 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "name": "Teriyaki Chicken Casserole",
+            "price": 15.5,
+            "description": "This charred flaxseed soufflé is hardly velvety with a succulent texture. It is redolent with asparagus with arnika and has a lot of thyme. It smells tantalizing with amaranth leaves. It is intense and unique. You can really feel how high quality and how fresh cut it is.",
+            "quantity": 0,
+            "image": "https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Spicy Arrabiata Penne",
+            "price": 5.4,
+            "description": "This poached black adzuki beans bread is completely smooth with a flaky texture. It has an undertone of chayote with nosegays and has a hint of cuban oregano. It smells biting with a dash of sweet potato leaves. It is such spicy. You can really feel how high in zinc and how low salt it is.",
+            "quantity": 0,
+            "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Spaghetti Bolognese",
+            "price": 2.3,
+            "description": "This sauteed broadbeans (fava beans) lasagna is absolutely doughy with a hearty texture. It is infused with red potato with clove and has coriander-blair. It smells odorless with a tiny bit of amaranth grain. It is delicate and delicious. You can really feel how high quality and how high in calcium it is.",
+            "quantity": 0,
+            "image": "https:\/\/www.themealdb.com\/images\/media\/meals\/sutysw1468247559.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Pad See Ew",
+            "price": 2.3,
+            "description": "This seared corn (maize) taco is marginally dry with a delicate texture. It reeks of grapefruit with black cumin and has a touch of hibiscus. It smells spicy with spices. It is raw and starchy. You can really feel how free trade and how BPA-free it is.",
+            "quantity": 0,
+            "image": "https:\/\/www.themealdb.com\/images\/media\/meals\/uuuspp1468263334.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Vegan Lasagna",
+            "price": 2.3,
+            "description": "This fermented plums chowder is fairly intoxicating with a sticky texture. It mirrors hazelnuts with chervil and has aralia. It smells musky with a hint of corn flour. It is peculiarly spicy. You can really feel how high in riboflavin and how quality guaranteed it is.",
+            "quantity": 0,
+            "image": "https:\/\/www.themealdb.com\/images\/media\/meals\/rvxxuy1468312893.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Chocolate Gateau",
+            "price": 2.3,
+            "description": "This broiled cherries taco is entirely crispy with a doughy texture. It is redolent with pear with cicely and has a large amount of black pepper. It smells like bacon with coriander (cilantro) leaves. It is peculiarly spicy. You can really feel how unsalted and how no fillers it is.",
+            "quantity": 0,
+            "image": "https:\/\/www.themealdb.com\/images\/media\/meals\/tqtywx1468317395.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Mediterranean Pasta Salad",
+            "price": 2.3,
+            "description": "This smoked pear quiche is a touch grainy with a soft texture. It tastes strongly of asparagus beans with lovage and has a bit of licorice root. It smells like a chicken coop with a tiny bit of catsup. It is sweet and delicious. You can really feel how high in vitamin B and how organic it is.",
+            "quantity": 0,
+            "image": "https:\/\/www.themealdb.com\/images\/media\/meals\/wvqpwt1468339226.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Cream Cheese Tart",
+            "price": 2.3,
+            "description": "This sauteed black turtle beans stew is a bit electric with a blackened texture. It is balanced with oats with horseradish and has borage. It smells scentless with kohlrabi. It is peculiarly national. You can really feel how high fiber and how high in iron it is.",
+            "quantity": 0,
+            "image": "https:\/\/www.themealdb.com\/images\/media\/meals\/wurrux1468416624.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Potato Gratin with Chicken",
+            "price": 2.3,
+            "description": "This breaded proso millet curry is vaguely greasy with a mushy texture. It is similar to pepitas (pumpkin seeds) with coriander seed and has galangal root powder. It smells like acid with a great deal of lotus root. It is somewhat antiquated. You can really feel how certified organic and how sustainably sourced it is.",
+            "quantity": 0,
+            "image": "https:\/\/www.themealdb.com\/images\/media\/meals\/qwrtut1468418027.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Irish stew",
+            "price": 2.3,
+            "description": "This roasted quinoa bread is a shade greasy with a silky texture. It parallels chia with santolina and has a lot of cicely. It smells like greasy rags with just the right amount of eppaw. It is individual social. You can really feel how third party tested and how high in magnesium it is.",
+            "quantity": 0,
+            "image": "https:\/\/www.themealdb.com\/images\/media\/meals\/sxxpst1468569714.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Lamb tomato and sweet spices",
+            "price": 2.3,
+            "description": "This blanched red cabbage stew is comparatively chewy with a juicy texture. It has a hint of flageolet beans with sorrel and has a great deal of celery seed. It smells like chicken broth with a large amount of beet green. It is wonderfully sweet. You can really feel how high in iron and how low salt it is.",
+            "quantity": 0,
+            "image": "https:\/\/www.themealdb.com\/images\/media\/meals\/qtwtss1468572261.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Smoky Lentil Chili with Squash",
+            "price": 2.3,
+            "description": "This glazed mustard greens broth is moderately tender with an electric texture. It is faintly like guava with garlic and has a large amount of tarragon. It smells spoiled with a tiny bit of quinces. It is fine and nutty. You can really feel how GMP certified and how third party tested it is.",
+            "quantity": 0,
+            "image": "https:\/\/www.themealdb.com\/images\/media\/meals\/uwxqwy1483389553.jpg"
+        }
+    ],
+    "cash": 15.7,
+    "ticket": 14.5
+}
